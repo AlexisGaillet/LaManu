@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* RESSOURCE */
+.boxSize {
+    height: auto;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.boxColor {
+    color: #282828;
+    font-size: 26px;
+}
+
+.formFlexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formFlexRow {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+
+
+
+/* Background */
+.backgroundImage {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container de texte */
+.boxText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Couleur du fond et du texte du footer */
+footer {
+    background-color: #282828;
+    color: white;
+}
+/* Flex et paramètre de la liste */
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 5px 0px;
+}
+/* Mise en place de l'éspacement entre les li */
+li {
+    height: 35px;
+}
+
+/* Flex et paramètre du container du formulaire */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px ;
+    font-size: 20px;
+}
+/* Taille et marge gauche des inputs */
+input {
+    width: 12rem;
+    margin-left: 5px;
+}
+
+/* Changement de l'image en paysage */
+@media (orientation: landscape) {
+    .backgroundImage {
+        background-image: url(../img/coworking-paysage.jpg);
+    }
+}
+/* Changement de l'image en portrait */
+@media (orientation: portrait) {
+    .backgroundImage {
+        background-image: url(../img/coworking-portrait.jpg);
+    }
+}
+/* Supérieur ou égal à 1024px de largeur */
+@media (min-width: 1024px) {
+    /* Changement de taille du background-image */
+    .backgroundImage {
+        height: 50vh;
+        width: auto;
+        background-image: url(../img/coworking-paysage.jpg);
+    }
+    /* Mise en horizontal des deux textes */
+    .boxText {
+        flex-direction: row;
+    }
+    /* Ajout des marges latérales des textes */
+    .boxSize {
+        margin: 0px 15px;
+    }
+    /* Mise en ligne des deux boxs du formulaire */
+    .formContainer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 25px;
+    }
+}
+/* Inférieur ou égal à 1024px */
+@media (max-width: 1024px) {
+    
+    .boxSize {
+        width: 100vw;
+    }
+
+    .formPart1 {
+        margin-left: 22px;
+    }
+}
+
+@media (min-width: 576px) {
+    ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    li {
+        padding: 25px 0px;
+    }
+}
