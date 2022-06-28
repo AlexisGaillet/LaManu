@@ -1,0 +1,94 @@
+/* Police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@1&family=Inter:wght@300&family=Kdam+Thmor+Pro&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(11,38,50);
+    background: linear-gradient(90deg, rgba(11,38,50,1) 0%, rgba(24,50,74,1) 50%, rgba(0,50,47,1) 100%);
+}
+
+/* Titre de la Page */
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+/* C'est la boite qui contient toute les cartes */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 50px;
+    margin-top: 20px;
+    background-color: rgba(185, 47, 143, 0.123);
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+/* Le template des cartes */
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+    margin: 50px 35px;
+    min-width: 70px;
+    border-radius: 7px;
+    transition-duration: 1s;
+}
+
+/* Propriété pour le changement avec la souris */
+.animated {
+    transition: background;
+    transition-duration: 0.5s;
+}
+
+/* Couleur pour le changement de comportement */
+.animated:hover {
+    background-color: rgb(255,227,148);
+}
+
+/* Modification de la div qui contient l'image */
+.imgContent {
+    height: 40%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Titre de la carte */
+.box .card h2 {
+    color: rgb(24, 24, 24);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Premier mot de la carte */
+.box .card h3 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 250%;
+}
+
+/* Description de la carte */
+.box .card p {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-top: 15px;
+    font-size: 125%;
+}

@@ -1,0 +1,63 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 31% 23% repeat(2, 11.5%) 2.3% 20.7%;
+  grid-template-rows: 11% repeat(2, 22%) 45%;
+  border: 1px solid black;
+  height: 600px;
+  width: 100%;
+  grid-template-areas: 
+  'green green green green green blue'
+  'red orange orange grey grey grey'
+  'red yellow cyan cyan maroon maroon'
+  'black black black black black black';
+  }
+  
+  .green {
+    background: rgb(78, 219, 78);
+    grid-area: green;
+  }
+
+  .blue {
+    background: rgb(76, 153, 216);
+    grid-area: blue;
+  }
+
+  .red {
+    background: rgb(250, 78, 78);
+    grid-area: red;
+  }
+
+  .black {
+    background: rgb(63, 66, 83) ;
+    grid-area: black;
+  }
+
+  .orange {
+    background: rgb(255, 115, 0);
+    grid-area: orange;
+  }
+
+  .grey {
+    background: rgb(155, 155, 155);
+    grid-area: grey;
+  }
+
+  .yellow {
+    background: orange;
+    grid-area: yellow;
+  }
+
+  .cyan {
+    background: rgb(27, 179, 141);
+    grid-area: cyan;
+  }
+
+  .maroon {
+    background: rgb(228, 72, 0);
+    grid-area: maroon;
+  }

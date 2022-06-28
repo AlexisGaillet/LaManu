@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-weight: 600;
+font-weight: 700 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+                        /* DIV unitaire */
+
+.text300 {
+    font-weight: 300;
+}
+
+.text600 {
+    font-weight: 600;
+}
+
+
+
+                        /* PREMIERE PARTIE DE LA PAGE WEB */
+Header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/landscapes/landscape1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Barre de navigation */
+nav ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 140%;
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+/* Liste de la barre de nav. */
+nav ul li {
+    margin: 25px 50px;
+    list-style-type: none;
+}
+
+/* Lien dans la nav. */
+nav ul li a {
+    color: white;
+}
+
+/* Retrait du soulignement des liens */
+nav ul li a:link {
+    text-decoration: none;
+}
+
+/* Changement de couleur lors du passage de la souris */
+nav ul li a:hover {
+    color: rgb(249, 255, 167);
+    transition: 1s;
+}
+
+
+/* Text de gauche du header */
+.header-text {
+    color: white;
+    margin-left: 90px;
+    margin-top: 210px;
+}
+
+/* Titre Pricipal */
+.header-text h1 {
+    font-size: 250%;
+    line-height: 110%;
+}
+
+/* Trait sous le titre */
+.header-text hr {
+    width: 9.5%;
+    border-color: #3D858E;
+    margin-top: 5px;
+}
+
+/* Photographe */
+.header-text .photograph {
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+/* Petit paragrapghe */
+.header-paragraph {
+    margin-bottom: 50px;
+}
+
+/* Bouton DECOUVRIR */
+.header-text a {
+    padding: 7px 20px;
+    background-color: #3D858E;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* Réseaux sociaux */
+.social-button {
+    display: flex;
+    justify-content: end;
+    margin: 30px 150px;
+}
+ /* Image des boutons réseaux sociaux */
+.social-button img {
+    width: 30px;
+    margin: 25px;
+}
+
+
+
+                        /* BIOGRAPHIE */
+
+.bio {
+
+}
+
+.container-bio {
+    margin: 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-bio {
+    width: 400px;
+    height: 620px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.box-bio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-bio {
+    width: 850px;
+    height: 620px;
+    background-color: rgba(0, 255, 255, 0.24);
+}
+
+.text-bio h2 {
+    color: #F6A844;
+    font-size: 200%;
+}
+
+.text-bio hr {
+    margin-top: 7px;
+    width: 100px;
+    border-color: #F6A844;
+}
+
+.text-bio p {
+    margin-top: 40px;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.pics-button {
+    width: 180px;
+    height: 40px;
+    background-color: #F6A844;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pics-button a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
