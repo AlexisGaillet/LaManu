@@ -1,0 +1,82 @@
+Exercice 1 :
+
+Algorithme :
+	loopModulo
+
+Variables :
+	count : integer
+
+Instructions :
+	pour count de 0 à 30
+		if count % 2 == 0
+			count ← count + 5
+			echo "(count)"
+		else  
+			count ← count + 5
+			echo "Oops"
+	finPour
+
+
+
+
+Exercice 2 :
+
+Algorithme :
+	bankLoop
+
+Variables :
+	bankAccount : float
+
+Instructions :.
+
+	while bankAccount >= 0 do
+		bankAccount ← bankAccount - 50
+		echo "Il vous reste ('bankAccount') €"
+	endWhile
+
+
+
+
+
+Exercice 3 :
+
+A ← 0
+B ← 0
+
+B ← B + A
+A ← A + 1
+
+
+
+A ← 0
+B ← 1
+
+A ← 1
+B ← 2
+
+A ← 3
+B ← 3
+
+A ← 6
+B ← 4
+
+A ← 10
+B ← 5
+
+A ← 15
+B ← 6
+
+A ← 21
+B ← 7
+
+A ← 28
+B ← 8
+
+A ← 36
+B ← 9
+
+A ← 45
+B ← 10
+
+A ← 55
+B ← 11

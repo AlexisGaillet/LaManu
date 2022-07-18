@@ -1,0 +1,52 @@
+Exercice 1 :
+
+Algorithme :
+	infoUser
+
+Variables :
+	age : integrer
+	gender : string
+
+Instructions :
+	Echo : "Genre ?"
+	Read : ('gender')
+	Echo : "Age ?"
+	Read : ('age')
+	if age >= 18 then
+		Echo : "Vous êtes un(e) ('gender') et vous êtes majeure."
+	else
+		Echo : "Vous êtes un(e) ('gender') et vous êtes mineure."
+	endIf
+
+
+
+
+Exercice 2 :
+
+Algorithme :
+	devide
+
+Variables :
+	n1 : integer
+	n2 : integer
+	resultCalc : float
+
+Instructions :
+	n1 ← 40
+	n2 ← 2
+	resulCalc ← n1 / n2
+
+		if resultCalc modulo 4 = 0
+			Echo : "Oui"
+		else
+			Echo : "Non"
+		endIf
+
+
+
+
+Exercice 3 :
+
+imcResult = 27,95
+
+Donc ca sera l'option 2 : Surveillez votre poids, votre IMC est de : 27,95

@@ -1,0 +1,92 @@
+Exercice 1 :
+
+Algorithme :
+	tableMultiply
+
+Variables :
+	numbers[] : integer array
+	resultCalc : integer
+	count : integer
+
+Instructions :
+	numbers[] ← numbers[12, 47, 84, 85, 41, 20, 14, 36, 42, 2]
+	resultCalc ← numbers[0]
+	for count 1 to 9
+		resultCalc ← resultCalc * numbers[count]
+	endfor
+
+
+
+
+
+
+
+
+
+
+	resultCalc ← 1
+	for count 0 to 9
+		resultCalc ← resultCalc * numbers[count]
+	endfor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercice 2 :
+
+Algorithme :
+	sortTable
+
+Variables :
+	table[] : array
+	firstname[] : string array
+	lastname[] : string array
+	mail[] : string array
+
+Instructions :
+	table[] ← table[firstname[], lastname[], mail[]]
+	write table[]
+
+
+
+
+
+
+Exercice 3 :
+
+

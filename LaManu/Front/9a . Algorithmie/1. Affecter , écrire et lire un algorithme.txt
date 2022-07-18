@@ -1,0 +1,37 @@
+Exercice 1 :
+
+Algorithme :
+	affecterDesValeurs
+
+Variables :
+	firstWord : string
+	secondWord : string
+
+Instructions :
+	Ecrire ('Valeur de firstWord ?')
+	Lire (firstWord)
+	Ecrire ('Valeur de secondWord ?')
+	Lire (secondWord)
+
+
+
+
+Exercice 2 :
+
+Algorithme :
+	demanderPrenomEtEcrirePrenom
+
+Variables :
+	name : string
+
+Instructions :
+	Ecrire ('Quel est ton prénom ?')
+	Lire ('name')
+	Ecrire ('Bonjour (name) !')
+
+
+
+
+Exercice 3 :
+
+(42-30)*56/4  =  168
