@@ -148,35 +148,101 @@
 
         // EXERCICE 1
 
-for (let years= 2020; years <= 2030; years++) {
-        if (years % 4 === 0 && years % 100 !== 0 || years %400 === 0) {
-        document.write('<div class="red">' + years + '</div>')
-        } else {
-                document.write('<div class="black">' + years + '</div>')
-        }
-}
+// for (let years= 2020; years <= 2030; years++); {
+//         if (years % 4 === 0 && years % 100 !== 0 || years %400 === 0) {
+//         document.write('<div class="red">' + years + '</div>')
+//         } else {
+//                 document.write('<div class="black">' + years + '</div>')
+//         }
+// }
 
 
 
 
         // EXERCICE 2
 
+// for (let numbers= 0; numbers <= 100; numbers++) {
+//         if (numbers % 15 === 0) {
+//                 document.write('<div>'+'...'+'</div>');
+//         } else {
+//                 document.write('<div>'+numbers+'</div>');
+//         }
+// }
+
 
 
 
         // EXERCICE 3
+
+// let languages = ['html', 'css', 'javascript', 'php', 'mysql', 'c++','ruby','python'];
+
+// for (let count = 0; count <= 7; count++) {
+//         document.write(' '+languages[count]+' ')
+// }
 
 
 
 
         // EXERCICE 4
 
+// let days = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi','Dimanche'];
+
+// for (let count = 0; count < 7; count++) {
+//         if (count >= 5) {
+//                 document.write('<div><strong>'+days[count]+'</strong></div>')
+//         } else {
+//                 document.write('<div>'+days[count]+'</div>')    
+//         }
+// }
+
 
 
 
         // EXERCICE 5
 
+// let firstNumber= 5;
+// let secondNumber= 10;
+// console.log('toto');
+// if (firstNumber <= 1 || firstNumber > 10) {
+//         document.write("Veuillez mettre un nombre entre plus de 1 et 10");
+// } else {
+//         while (secondNumber <= 250) {
+//                 // if (secondNumber < 1 || secondNumber > 10) {
+//                 //         document.write("Veuillez mettre un nombre entre 1 et 10");
+//                 // } else {
+//                         secondNumber = firstNumber * secondNumber;
+//                         if(secondNumber <= 250) {
+//                                 document.write(' '+ secondNumber +' ');
+//                         }
+//                 // }
+//                 console.log(secondNumber);
+//         }
+// }
+
 
 
 
         // EXERCICE 6
+
+// let firstNumber = prompt("Premier nombre ?");
+// let secondNumber = prompt("Second nombre ?");
+//         if (firstNumber <= 1 && firstNumber >= 10) {
+//                 document.write("Veuillez mettre un nombre entre plus de 1 et 10");
+//         } else {
+//                 while (firstNumber > 1) {
+//                         console.log('ok')
+//                         if (secondNumber < 1 || secondNumber > 10) {
+//                                 document.write("Veuillez mettre un nombre entre 1 et 10");
+//                         } else {
+        //                         firstNumber = firstNumber / secondNumber
+        //                         document.write(' '+ firstNumber +' ')
+//                         }
+//                 }
+//         }
+
+
+
+
+
+
+                // PARTIE 3 - LES FONCTIONS
