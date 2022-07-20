@@ -264,6 +264,31 @@
 
 // let para = document.querySelectorAll('p');
 
-document.querySelectorAll('button[0]').addEventListener('click', function(){
-        document.querySelectorAll('p').bold.toggle
+// let boldBtn = document.querySelectorAll('button')[0];
+// console.log(boldBtn);
+// let colorBtn = document.querySelectorAll('button')[1];
+// console.log(colorBtn);
+// let sizeBtn = document.querySelectorAll('button')[2];
+// console.log(sizeBtn);
+
+// function style (styleCSS){
+//         let paragraphs = document.querySelectorAll('p');
+//         for (let paragraph of paragraphs) {
+//                 paragraph.classList.toggle(styleCSS);
+//         }
+// }
+
+// document.querySelectorAll('button')[0].addEventListener('click', function() {
+//         style('bold');
+// })
+
+function style (styleCSS){
+        let paragraphs = document.querySelectorAll('p');
+        for (let paragraph of paragraphs) {
+        paragraph.classList.toggle(styleCSS);
+        }
+}
+
+document.getElementById('boldButton').addEventListener('click', function(){
+        style('bold');
 })
