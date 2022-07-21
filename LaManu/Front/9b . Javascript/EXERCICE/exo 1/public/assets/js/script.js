@@ -245,11 +245,50 @@
 
 
 
-                // PARTIE 3 - LES FONCTIONS
+                // PARTIE 4 - LES FONCTIONS
 
         // EXERCICE 1
 
 // function calc() {
+//         let n1 = parseInt(document.getElementById('n1').value);
+//         let n2 = parseInt(document.getElementById('n2').value);
+//         let result = document.getElementById('result');
+
+//         result.value = n1 * n2;
+// }
+
+// document.getElementById('btn').addEventListener('click', calc)
+
+
+
+
+        // EXERCICE 2
+
+// function style (styleCSS){
+//         let paragraphs = document.querySelectorAll('p');
+//         for (let paragraph of paragraphs) {
+//         paragraph.classList.toggle(styleCSS);
+//         }
+// }
+
+// document.querySelectorAll('button')[0].addEventListener('click', function(){
+//         style('bold');
+// })
+
+// document.querySelectorAll('button')[1].addEventListener('click', function(){
+//         style('color');
+// })
+
+// document.querySelectorAll('button')[2].addEventListener('click', function(){
+//         style('size');
+// })
+
+
+
+
+        // EXERCICE 3
+
+// let calc=() => {
 //         let n1 = parseInt(document.getElementById('n1').value);
 //         let n2 = parseInt(document.getElementById('n2').value);
 //         let result = document.getElementById('result');
@@ -260,35 +299,85 @@
 
 
 
-        // EXERCICE 2
+        // EXERCICE 4
 
-// let para = document.querySelectorAll('p');
+// let sizeUp = () => {
+//         let image = document.querySelectorAll('img')[0];
+//         let size = image.clientWidth;
+//         image.style.width = "100%";
+// }
 
-// let boldBtn = document.querySelectorAll('button')[0];
-// console.log(boldBtn);
-// let colorBtn = document.querySelectorAll('button')[1];
-// console.log(colorBtn);
-// let sizeBtn = document.querySelectorAll('button')[2];
-// console.log(sizeBtn);
+// document.querySelectorAll('img')[0].addEventListener('click', sizeUp, {})
 
-// function style (styleCSS){
-//         let paragraphs = document.querySelectorAll('p');
-//         for (let paragraph of paragraphs) {
-//                 paragraph.classList.toggle(styleCSS);
+
+
+
+        // EXERCICE 5
+
+// function getStringLength(string){
+//         let stringLength;
+//         if(string.length === 1){
+//                 stringLength = 'La chaîne contient qu\'un seul caractère';
+//         } else {
+//                 stringLength = `La chaîne contient ${string.length} caractères`;
+//         }
+//         return stringLength;
+//         }
+                        // TRADUCTION :
+// let getStringLength = (string) => {
+//         let stringLength;
+//         if(string.length === 1){
+//                 stringLength = 'La chaîne contient qu\'un seul caractère';
+//         } else {
+//                 stringLength = `La chaîne contient ${string.length} caractères`;
+//         }
+//         return stringLength;
+//         }
+
+
+
+
+        // EXERCICE 6
+
+// (name) =>  `Bonjour, ${name} ! Comment vas-tu ?`;
+                        // TRADUCTION
+// function sayHello(name) {
+//         document.write(`Bonjour, ${name} ! Comment vas-tu ?`);
+// }
+
+// sayHello(`Alexis`)
+
+
+
+
+
+
+                // PARTIE 5 - LES EVENEMENTS ET LA MANIPULATION DU DOM
+
+        // EXERCICE 1
+
+// passwordCheck = () => {
+//         let password = document.getElementById('password');
+//         let confirmPassword = document.getElementById('confirmPassword');
+//         if (password.value === confirmPassword.value) {
+//                 console.log('correct')
+//                 password.classList.add("passwordGreen");
+//                 confirmPassword.classList.add("passwordGreen");
+//                 password.classList.remove("passwordRed");
+//                 confirmPassword.classList.remove("passwordRed");
+//         } else {
+//                 console.log('wrong')
+//                 password.classList.add("passwordRed");
+//                 confirmPassword.classList.add("passwordRed");
+//                 password.classList.remove("passwordGreen");
+//                 confirmPassword.classList.remove("passwordGreen");
 //         }
 // }
 
-// document.querySelectorAll('button')[0].addEventListener('click', function() {
-//         style('bold');
-// })
+// document.getElementById('btn').addEventListener('click', passwordCheck)
 
-function style (styleCSS){
-        let paragraphs = document.querySelectorAll('p');
-        for (let paragraph of paragraphs) {
-        paragraph.classList.toggle(styleCSS);
-        }
-}
 
-document.getElementById('boldButton').addEventListener('click', function(){
-        style('bold');
-})
+
+
+        // EXERCICE 2
+
